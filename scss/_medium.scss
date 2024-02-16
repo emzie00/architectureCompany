@@ -1,0 +1,13 @@
+nav {
+    ul {
+        display: flex;
+    } // end ul
+    ul li a {
+        border: none;
+        padding: .7rem 2rem;
+        font-size: .8rem;
+    }
+    ul li a:hover {
+        text-decoration: wavy;
+    }
+} // end nav
