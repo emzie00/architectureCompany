@@ -36,11 +36,17 @@ header {
     max-width: 75rem auto;
 }
 nav {
+    ul {
+        margin: 0;
+        padding: 0;
+        display: block;
+        text-align: center;
+    }
     ul li a {
         color: #D9C3B0;
         text-decoration: none;
         display: block;
-        padding: .9rem 2w;
+        padding: .9rem;
         border-top: solid 1px rgba(0,0,0,.2);
         background-color: #59522E;
     }
@@ -66,9 +72,20 @@ main {
         font-weight: $boldWeight;
     }
     .hero {
-        max-width: 75rem;
+        width: 100%;
         img {
-            max-width: 75rem;
+            width: 100%;
+            height: auto;
+        }
+    }
+    video {
+        width: 90%;
+        margin-left: 5%;
+    }
+    details {
+        margin: .5rem $gutter;
+        summary {
+            background-color: #89BAD9;
         }
     }
 }

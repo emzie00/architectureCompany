@@ -40,11 +40,17 @@ header h1 {
   max-width: 75rem auto;
 }
 
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: block;
+  text-align: center;
+}
 nav ul li a {
   color: #D9C3B0;
   text-decoration: none;
   display: block;
-  padding: 0.9rem 2w;
+  padding: 0.9rem;
   border-top: solid 1px rgba(0, 0, 0, 0.2);
   background-color: #59522E;
 }
@@ -69,10 +75,21 @@ main h1 {
   font-weight: 700;
 }
 main .hero {
-  max-width: 75rem;
+  width: 100%;
 }
 main .hero img {
-  max-width: 75rem;
+  width: 100%;
+  height: auto;
+}
+main video {
+  width: 90%;
+  margin-left: 5%;
+}
+main details {
+  margin: 0.5rem 16px;
+}
+main details summary {
+  background-color: #89BAD9;
 }
 
 #footerWrapper {
